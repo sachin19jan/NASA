@@ -7,26 +7,158 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B511C2B429DB680200F5AE9F /* URLComponentsProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C28E29DB680100F5AE9F /* URLComponentsProviderImpl.swift */; };
+		B511C2B529DB680200F5AE9F /* URLComponentsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C28F29DB680100F5AE9F /* URLComponentsProvider.swift */; };
+		B511C2B629DB680200F5AE9F /* URLQueryItemProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C29029DB680100F5AE9F /* URLQueryItemProviderImpl.swift */; };
+		B511C2B729DB680200F5AE9F /* URLQueryItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C29129DB680100F5AE9F /* URLQueryItemProvider.swift */; };
+		B511C2B829DB680200F5AE9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B511C29229DB680100F5AE9F /* Main.storyboard */; };
+		B511C2B929DB680200F5AE9F /* PictureOfTheDaySecondViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C29429DB680100F5AE9F /* PictureOfTheDaySecondViewPage.swift */; };
+		B511C2BA29DB680200F5AE9F /* PictureOfTheDayFirstViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C29529DB680100F5AE9F /* PictureOfTheDayFirstViewPage.swift */; };
+		B511C2BB29DB680200F5AE9F /* PictureOfTheDayViewControllerPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C29629DB680100F5AE9F /* PictureOfTheDayViewControllerPaging.swift */; };
+		B511C2BC29DB680200F5AE9F /* DateParserImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C29829DB680100F5AE9F /* DateParserImpl.swift */; };
+		B511C2BD29DB680200F5AE9F /* DateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C29929DB680100F5AE9F /* DateParser.swift */; };
+		B511C2BE29DB680200F5AE9F /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C29B29DB680100F5AE9F /* JSONSerializer.swift */; };
+		B511C2BF29DB680200F5AE9F /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C29C29DB680100F5AE9F /* Serializer.swift */; };
+		B511C2C029DB680200F5AE9F /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C29E29DB680100F5AE9F /* NetworkMonitor.swift */; };
+		B511C2C129DB680200F5AE9F /* UIViewControllerValidatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2A029DB680100F5AE9F /* UIViewControllerValidatorImpl.swift */; };
+		B511C2C229DB680200F5AE9F /* DateParserValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2A229DB680100F5AE9F /* DateParserValidator.swift */; };
+		B511C2C329DB680200F5AE9F /* DateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2A329DB680100F5AE9F /* DateValidator.swift */; };
+		B511C2C429DB680200F5AE9F /* DateValidatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2A429DB680100F5AE9F /* DateValidatorImpl.swift */; };
+		B511C2C529DB680200F5AE9F /* DateParserValidatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2A529DB680100F5AE9F /* DateParserValidatorImpl.swift */; };
+		B511C2C629DB680200F5AE9F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2A629DB680100F5AE9F /* Reachability.swift */; };
+		B511C2C729DB680200F5AE9F /* URLComponentsValidatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2A829DB680100F5AE9F /* URLComponentsValidatorImpl.swift */; };
+		B511C2C829DB680200F5AE9F /* URLComponentsValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2A929DB680100F5AE9F /* URLComponentsValidator.swift */; };
+		B511C2C929DB680200F5AE9F /* URLSessionValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2AA29DB680100F5AE9F /* URLSessionValidator.swift */; };
+		B511C2CA29DB680200F5AE9F /* URLValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2AB29DB680100F5AE9F /* URLValidator.swift */; };
+		B511C2CB29DB680200F5AE9F /* URLValidatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2AC29DB680100F5AE9F /* URLValidatorImpl.swift */; };
+		B511C2CC29DB680200F5AE9F /* URLSessionValidatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2AD29DB680100F5AE9F /* URLSessionValidatorImpl.swift */; };
+		B511C2CD29DB680200F5AE9F /* UIViewControllerValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2AE29DB680100F5AE9F /* UIViewControllerValidator.swift */; };
+		B511C2CE29DB680200F5AE9F /* EntityValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2AF29DB680100F5AE9F /* EntityValidator.swift */; };
+		B511C2CF29DB680200F5AE9F /* EntityValidatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2B029DB680200F5AE9F /* EntityValidatorImpl.swift */; };
+		B511C2D029DB680200F5AE9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2B129DB680200F5AE9F /* SceneDelegate.swift */; };
+		B511C2D129DB680200F5AE9F /* PictureOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2B329DB680200F5AE9F /* PictureOfTheDay.swift */; };
+		B511C2E129DB681500F5AE9F /* PictureOfTheDayViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2D329DB681400F5AE9F /* PictureOfTheDayViewContoller.swift */; };
+		B511C2E229DB681500F5AE9F /* NASADownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2D529DB681500F5AE9F /* NASADownloadService.swift */; };
+		B511C2E329DB681500F5AE9F /* ImageDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2D629DB681500F5AE9F /* ImageDownloadService.swift */; };
+		B511C2E429DB681500F5AE9F /* DataDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2D729DB681500F5AE9F /* DataDownloadService.swift */; };
+		B511C2E529DB681500F5AE9F /* ImageDownloadServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2D829DB681500F5AE9F /* ImageDownloadServiceImpl.swift */; };
+		B511C2E629DB681500F5AE9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2D929DB681500F5AE9F /* Constants.swift */; };
+		B511C2E729DB681500F5AE9F /* DateFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2DB29DB681500F5AE9F /* DateFactory.swift */; };
+		B511C2E829DB681500F5AE9F /* URLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2DC29DB681500F5AE9F /* URLFactory.swift */; };
+		B511C2E929DB681500F5AE9F /* URLFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2DD29DB681500F5AE9F /* URLFactoryImpl.swift */; };
+		B511C2EA29DB681500F5AE9F /* DateFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2DE29DB681500F5AE9F /* DateFactoryImpl.swift */; };
+		B511C2EB29DB681500F5AE9F /* UIViewControllerFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2DF29DB681500F5AE9F /* UIViewControllerFactoryImpl.swift */; };
+		B511C2EC29DB681500F5AE9F /* UIViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2E029DB681500F5AE9F /* UIViewControllerFactory.swift */; };
+		B511C2EE29DB6FAE00F5AE9F /* NasaStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2ED29DB6FAE00F5AE9F /* NasaStorage.swift */; };
+		B511C2F029DB7E2300F5AE9F /* OfflineStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C2EF29DB7E2300F5AE9F /* OfflineStorage.swift */; };
+		B511C33F29DB82EC00F5AE9F /* DateParserImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C32A29DB82EB00F5AE9F /* DateParserImplTest.swift */; };
+		B511C34029DB82EC00F5AE9F /* DateValidatorImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C32C29DB82EC00F5AE9F /* DateValidatorImplTest.swift */; };
+		B511C34129DB82EC00F5AE9F /* URLComponentsValidatorImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C32D29DB82EC00F5AE9F /* URLComponentsValidatorImplTest.swift */; };
+		B511C34229DB82EC00F5AE9F /* URLSessionValidatorImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C32E29DB82EC00F5AE9F /* URLSessionValidatorImplTest.swift */; };
+		B511C34329DB82EC00F5AE9F /* URLValidatorImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C32F29DB82EC00F5AE9F /* URLValidatorImplTest.swift */; };
+		B511C34429DB82EC00F5AE9F /* DateParserValidatorImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C33029DB82EC00F5AE9F /* DateParserValidatorImplTest.swift */; };
+		B511C34529DB82EC00F5AE9F /* UIViewControllerValidatorImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C33129DB82EC00F5AE9F /* UIViewControllerValidatorImplTest.swift */; };
+		B511C34629DB82EC00F5AE9F /* EntityValidatorImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C33229DB82EC00F5AE9F /* EntityValidatorImplTest.swift */; };
+		B511C34729DB82EC00F5AE9F /* ImageDownloadServiceImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C33429DB82EC00F5AE9F /* ImageDownloadServiceImplTest.swift */; };
+		B511C34829DB82EC00F5AE9F /* NASADownloadServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C33529DB82EC00F5AE9F /* NASADownloadServiceTest.swift */; };
+		B511C34929DB82EC00F5AE9F /* URLComponentsProviderImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C33729DB82EC00F5AE9F /* URLComponentsProviderImplTest.swift */; };
+		B511C34A29DB82EC00F5AE9F /* URLQueryItemProviderImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C33829DB82EC00F5AE9F /* URLQueryItemProviderImplTest.swift */; };
+		B511C34B29DB82EC00F5AE9F /* DateFactoryImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C33A29DB82EC00F5AE9F /* DateFactoryImplTest.swift */; };
+		B511C34C29DB82EC00F5AE9F /* UIViewControllerFactoryImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C33B29DB82EC00F5AE9F /* UIViewControllerFactoryImplTest.swift */; };
+		B511C34D29DB82EC00F5AE9F /* URLFactoryImplTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C33C29DB82EC00F5AE9F /* URLFactoryImplTest.swift */; };
+		B511C34E29DB82EC00F5AE9F /* JSONSerializerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511C33E29DB82EC00F5AE9F /* JSONSerializerTest.swift */; };
 		B5523F7E29DA021B00D101CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5523F7D29DA021B00D101CF /* AppDelegate.swift */; };
-		B5523F8029DA021B00D101CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5523F7F29DA021B00D101CF /* SceneDelegate.swift */; };
-		B5523F8229DA021B00D101CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5523F8129DA021B00D101CF /* ViewController.swift */; };
-		B5523F8529DA021B00D101CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5523F8329DA021B00D101CF /* Main.storyboard */; };
 		B5523F8729DA021E00D101CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5523F8629DA021E00D101CF /* Assets.xcassets */; };
 		B5523F8A29DA021E00D101CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5523F8829DA021E00D101CF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B511C32129DB81ED00F5AE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5523F7229DA021B00D101CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5523F7929DA021B00D101CF;
+			remoteInfo = NASA;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		B511C28E29DB680100F5AE9F /* URLComponentsProviderImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLComponentsProviderImpl.swift; sourceTree = "<group>"; };
+		B511C28F29DB680100F5AE9F /* URLComponentsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLComponentsProvider.swift; sourceTree = "<group>"; };
+		B511C29029DB680100F5AE9F /* URLQueryItemProviderImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLQueryItemProviderImpl.swift; sourceTree = "<group>"; };
+		B511C29129DB680100F5AE9F /* URLQueryItemProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLQueryItemProvider.swift; sourceTree = "<group>"; };
+		B511C29229DB680100F5AE9F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B511C29429DB680100F5AE9F /* PictureOfTheDaySecondViewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureOfTheDaySecondViewPage.swift; sourceTree = "<group>"; };
+		B511C29529DB680100F5AE9F /* PictureOfTheDayFirstViewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayFirstViewPage.swift; sourceTree = "<group>"; };
+		B511C29629DB680100F5AE9F /* PictureOfTheDayViewControllerPaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayViewControllerPaging.swift; sourceTree = "<group>"; };
+		B511C29829DB680100F5AE9F /* DateParserImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateParserImpl.swift; sourceTree = "<group>"; };
+		B511C29929DB680100F5AE9F /* DateParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateParser.swift; sourceTree = "<group>"; };
+		B511C29B29DB680100F5AE9F /* JSONSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializer.swift; sourceTree = "<group>"; };
+		B511C29C29DB680100F5AE9F /* Serializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializer.swift; sourceTree = "<group>"; };
+		B511C29E29DB680100F5AE9F /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		B511C2A029DB680100F5AE9F /* UIViewControllerValidatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerValidatorImpl.swift; sourceTree = "<group>"; };
+		B511C2A229DB680100F5AE9F /* DateParserValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateParserValidator.swift; sourceTree = "<group>"; };
+		B511C2A329DB680100F5AE9F /* DateValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValidator.swift; sourceTree = "<group>"; };
+		B511C2A429DB680100F5AE9F /* DateValidatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValidatorImpl.swift; sourceTree = "<group>"; };
+		B511C2A529DB680100F5AE9F /* DateParserValidatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateParserValidatorImpl.swift; sourceTree = "<group>"; };
+		B511C2A629DB680100F5AE9F /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		B511C2A829DB680100F5AE9F /* URLComponentsValidatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLComponentsValidatorImpl.swift; sourceTree = "<group>"; };
+		B511C2A929DB680100F5AE9F /* URLComponentsValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLComponentsValidator.swift; sourceTree = "<group>"; };
+		B511C2AA29DB680100F5AE9F /* URLSessionValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionValidator.swift; sourceTree = "<group>"; };
+		B511C2AB29DB680100F5AE9F /* URLValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLValidator.swift; sourceTree = "<group>"; };
+		B511C2AC29DB680100F5AE9F /* URLValidatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLValidatorImpl.swift; sourceTree = "<group>"; };
+		B511C2AD29DB680100F5AE9F /* URLSessionValidatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionValidatorImpl.swift; sourceTree = "<group>"; };
+		B511C2AE29DB680100F5AE9F /* UIViewControllerValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerValidator.swift; sourceTree = "<group>"; };
+		B511C2AF29DB680100F5AE9F /* EntityValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityValidator.swift; sourceTree = "<group>"; };
+		B511C2B029DB680200F5AE9F /* EntityValidatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityValidatorImpl.swift; sourceTree = "<group>"; };
+		B511C2B129DB680200F5AE9F /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../Desktop/NASA/NASA/SceneDelegate.swift; sourceTree = "<group>"; };
+		B511C2B329DB680200F5AE9F /* PictureOfTheDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureOfTheDay.swift; sourceTree = "<group>"; };
+		B511C2D329DB681400F5AE9F /* PictureOfTheDayViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayViewContoller.swift; sourceTree = "<group>"; };
+		B511C2D529DB681500F5AE9F /* NASADownloadService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NASADownloadService.swift; sourceTree = "<group>"; };
+		B511C2D629DB681500F5AE9F /* ImageDownloadService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadService.swift; sourceTree = "<group>"; };
+		B511C2D729DB681500F5AE9F /* DataDownloadService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataDownloadService.swift; sourceTree = "<group>"; };
+		B511C2D829DB681500F5AE9F /* ImageDownloadServiceImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadServiceImpl.swift; sourceTree = "<group>"; };
+		B511C2D929DB681500F5AE9F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B511C2DB29DB681500F5AE9F /* DateFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFactory.swift; sourceTree = "<group>"; };
+		B511C2DC29DB681500F5AE9F /* URLFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLFactory.swift; sourceTree = "<group>"; };
+		B511C2DD29DB681500F5AE9F /* URLFactoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLFactoryImpl.swift; sourceTree = "<group>"; };
+		B511C2DE29DB681500F5AE9F /* DateFactoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFactoryImpl.swift; sourceTree = "<group>"; };
+		B511C2DF29DB681500F5AE9F /* UIViewControllerFactoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerFactoryImpl.swift; sourceTree = "<group>"; };
+		B511C2E029DB681500F5AE9F /* UIViewControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerFactory.swift; sourceTree = "<group>"; };
+		B511C2ED29DB6FAE00F5AE9F /* NasaStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaStorage.swift; sourceTree = "<group>"; };
+		B511C2EF29DB7E2300F5AE9F /* OfflineStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineStorage.swift; sourceTree = "<group>"; };
+		B511C31D29DB81ED00F5AE9F /* NASATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NASATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B511C32A29DB82EB00F5AE9F /* DateParserImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateParserImplTest.swift; sourceTree = "<group>"; };
+		B511C32C29DB82EC00F5AE9F /* DateValidatorImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValidatorImplTest.swift; sourceTree = "<group>"; };
+		B511C32D29DB82EC00F5AE9F /* URLComponentsValidatorImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLComponentsValidatorImplTest.swift; sourceTree = "<group>"; };
+		B511C32E29DB82EC00F5AE9F /* URLSessionValidatorImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionValidatorImplTest.swift; sourceTree = "<group>"; };
+		B511C32F29DB82EC00F5AE9F /* URLValidatorImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLValidatorImplTest.swift; sourceTree = "<group>"; };
+		B511C33029DB82EC00F5AE9F /* DateParserValidatorImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateParserValidatorImplTest.swift; sourceTree = "<group>"; };
+		B511C33129DB82EC00F5AE9F /* UIViewControllerValidatorImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerValidatorImplTest.swift; sourceTree = "<group>"; };
+		B511C33229DB82EC00F5AE9F /* EntityValidatorImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityValidatorImplTest.swift; sourceTree = "<group>"; };
+		B511C33429DB82EC00F5AE9F /* ImageDownloadServiceImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadServiceImplTest.swift; sourceTree = "<group>"; };
+		B511C33529DB82EC00F5AE9F /* NASADownloadServiceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NASADownloadServiceTest.swift; sourceTree = "<group>"; };
+		B511C33729DB82EC00F5AE9F /* URLComponentsProviderImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLComponentsProviderImplTest.swift; sourceTree = "<group>"; };
+		B511C33829DB82EC00F5AE9F /* URLQueryItemProviderImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLQueryItemProviderImplTest.swift; sourceTree = "<group>"; };
+		B511C33A29DB82EC00F5AE9F /* DateFactoryImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFactoryImplTest.swift; sourceTree = "<group>"; };
+		B511C33B29DB82EC00F5AE9F /* UIViewControllerFactoryImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerFactoryImplTest.swift; sourceTree = "<group>"; };
+		B511C33C29DB82EC00F5AE9F /* URLFactoryImplTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLFactoryImplTest.swift; sourceTree = "<group>"; };
+		B511C33E29DB82EC00F5AE9F /* JSONSerializerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializerTest.swift; sourceTree = "<group>"; };
 		B5523F7A29DA021B00D101CF /* NASA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5523F7D29DA021B00D101CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5523F7F29DA021B00D101CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5523F8129DA021B00D101CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B5523F8429DA021B00D101CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5523F8629DA021E00D101CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5523F8929DA021E00D101CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5523F8B29DA021E00D101CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B511C31A29DB81ED00F5AE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5523F7729DA021B00D101CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +169,208 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B511C28D29DB680100F5AE9F /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				B511C28E29DB680100F5AE9F /* URLComponentsProviderImpl.swift */,
+				B511C28F29DB680100F5AE9F /* URLComponentsProvider.swift */,
+				B511C29029DB680100F5AE9F /* URLQueryItemProviderImpl.swift */,
+				B511C29129DB680100F5AE9F /* URLQueryItemProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		B511C29329DB680100F5AE9F /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				B511C29429DB680100F5AE9F /* PictureOfTheDaySecondViewPage.swift */,
+				B511C29529DB680100F5AE9F /* PictureOfTheDayFirstViewPage.swift */,
+				B511C29629DB680100F5AE9F /* PictureOfTheDayViewControllerPaging.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		B511C29729DB680100F5AE9F /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				B511C29829DB680100F5AE9F /* DateParserImpl.swift */,
+				B511C29929DB680100F5AE9F /* DateParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		B511C29A29DB680100F5AE9F /* Serializers */ = {
+			isa = PBXGroup;
+			children = (
+				B511C29B29DB680100F5AE9F /* JSONSerializer.swift */,
+				B511C29C29DB680100F5AE9F /* Serializer.swift */,
+			);
+			path = Serializers;
+			sourceTree = "<group>";
+		};
+		B511C29D29DB680100F5AE9F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B511C29E29DB680100F5AE9F /* NetworkMonitor.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B511C29F29DB680100F5AE9F /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				B511C2A029DB680100F5AE9F /* UIViewControllerValidatorImpl.swift */,
+				B511C2A129DB680100F5AE9F /* Date */,
+				B511C2A629DB680100F5AE9F /* Reachability.swift */,
+				B511C2A729DB680100F5AE9F /* URL */,
+				B511C2AE29DB680100F5AE9F /* UIViewControllerValidator.swift */,
+				B511C2AF29DB680100F5AE9F /* EntityValidator.swift */,
+				B511C2B029DB680200F5AE9F /* EntityValidatorImpl.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		B511C2A129DB680100F5AE9F /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				B511C2A229DB680100F5AE9F /* DateParserValidator.swift */,
+				B511C2A329DB680100F5AE9F /* DateValidator.swift */,
+				B511C2A429DB680100F5AE9F /* DateValidatorImpl.swift */,
+				B511C2A529DB680100F5AE9F /* DateParserValidatorImpl.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		B511C2A729DB680100F5AE9F /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				B511C2A829DB680100F5AE9F /* URLComponentsValidatorImpl.swift */,
+				B511C2A929DB680100F5AE9F /* URLComponentsValidator.swift */,
+				B511C2AA29DB680100F5AE9F /* URLSessionValidator.swift */,
+				B511C2AB29DB680100F5AE9F /* URLValidator.swift */,
+				B511C2AC29DB680100F5AE9F /* URLValidatorImpl.swift */,
+				B511C2AD29DB680100F5AE9F /* URLSessionValidatorImpl.swift */,
+			);
+			path = URL;
+			sourceTree = "<group>";
+		};
+		B511C2B229DB680200F5AE9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B511C2B329DB680200F5AE9F /* PictureOfTheDay.swift */,
+				B511C2ED29DB6FAE00F5AE9F /* NasaStorage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B511C2D229DB681400F5AE9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B511C2D329DB681400F5AE9F /* PictureOfTheDayViewContoller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B511C2D429DB681500F5AE9F /* DownloadServices */ = {
+			isa = PBXGroup;
+			children = (
+				B511C2D529DB681500F5AE9F /* NASADownloadService.swift */,
+				B511C2D629DB681500F5AE9F /* ImageDownloadService.swift */,
+				B511C2D729DB681500F5AE9F /* DataDownloadService.swift */,
+				B511C2D829DB681500F5AE9F /* ImageDownloadServiceImpl.swift */,
+			);
+			path = DownloadServices;
+			sourceTree = "<group>";
+		};
+		B511C2DA29DB681500F5AE9F /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				B511C2DB29DB681500F5AE9F /* DateFactory.swift */,
+				B511C2DC29DB681500F5AE9F /* URLFactory.swift */,
+				B511C2DD29DB681500F5AE9F /* URLFactoryImpl.swift */,
+				B511C2DE29DB681500F5AE9F /* DateFactoryImpl.swift */,
+				B511C2DF29DB681500F5AE9F /* UIViewControllerFactoryImpl.swift */,
+				B511C2E029DB681500F5AE9F /* UIViewControllerFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		B511C31E29DB81ED00F5AE9F /* NASATests */ = {
+			isa = PBXGroup;
+			children = (
+				B511C33329DB82EC00F5AE9F /* DownloadServices */,
+				B511C33929DB82EC00F5AE9F /* Factories */,
+				B511C32929DB82EB00F5AE9F /* Parsers */,
+				B511C33629DB82EC00F5AE9F /* Providers */,
+				B511C33D29DB82EC00F5AE9F /* Serializers */,
+				B511C32B29DB82EC00F5AE9F /* Validators */,
+			);
+			path = NASATests;
+			sourceTree = "<group>";
+		};
+		B511C32929DB82EB00F5AE9F /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				B511C32A29DB82EB00F5AE9F /* DateParserImplTest.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		B511C32B29DB82EC00F5AE9F /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				B511C32C29DB82EC00F5AE9F /* DateValidatorImplTest.swift */,
+				B511C32D29DB82EC00F5AE9F /* URLComponentsValidatorImplTest.swift */,
+				B511C32E29DB82EC00F5AE9F /* URLSessionValidatorImplTest.swift */,
+				B511C32F29DB82EC00F5AE9F /* URLValidatorImplTest.swift */,
+				B511C33029DB82EC00F5AE9F /* DateParserValidatorImplTest.swift */,
+				B511C33129DB82EC00F5AE9F /* UIViewControllerValidatorImplTest.swift */,
+				B511C33229DB82EC00F5AE9F /* EntityValidatorImplTest.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		B511C33329DB82EC00F5AE9F /* DownloadServices */ = {
+			isa = PBXGroup;
+			children = (
+				B511C33429DB82EC00F5AE9F /* ImageDownloadServiceImplTest.swift */,
+				B511C33529DB82EC00F5AE9F /* NASADownloadServiceTest.swift */,
+			);
+			path = DownloadServices;
+			sourceTree = "<group>";
+		};
+		B511C33629DB82EC00F5AE9F /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				B511C33729DB82EC00F5AE9F /* URLComponentsProviderImplTest.swift */,
+				B511C33829DB82EC00F5AE9F /* URLQueryItemProviderImplTest.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		B511C33929DB82EC00F5AE9F /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				B511C33A29DB82EC00F5AE9F /* DateFactoryImplTest.swift */,
+				B511C33B29DB82EC00F5AE9F /* UIViewControllerFactoryImplTest.swift */,
+				B511C33C29DB82EC00F5AE9F /* URLFactoryImplTest.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		B511C33D29DB82EC00F5AE9F /* Serializers */ = {
+			isa = PBXGroup;
+			children = (
+				B511C33E29DB82EC00F5AE9F /* JSONSerializerTest.swift */,
+			);
+			path = Serializers;
+			sourceTree = "<group>";
+		};
 		B5523F7129DA021B00D101CF = {
 			isa = PBXGroup;
 			children = (
 				B5523F7C29DA021B00D101CF /* NASA */,
+				B511C31E29DB81ED00F5AE9F /* NASATests */,
 				B5523F7B29DA021B00D101CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +379,7 @@
 			isa = PBXGroup;
 			children = (
 				B5523F7A29DA021B00D101CF /* NASA.app */,
+				B511C31D29DB81ED00F5AE9F /* NASATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +388,20 @@
 			isa = PBXGroup;
 			children = (
 				B5523F7D29DA021B00D101CF /* AppDelegate.swift */,
-				B5523F7F29DA021B00D101CF /* SceneDelegate.swift */,
-				B5523F8129DA021B00D101CF /* ViewController.swift */,
-				B5523F8329DA021B00D101CF /* Main.storyboard */,
+				B511C29229DB680100F5AE9F /* Main.storyboard */,
+				B511C2D929DB681500F5AE9F /* Constants.swift */,
+				B511C2EF29DB7E2300F5AE9F /* OfflineStorage.swift */,
+				B511C2D229DB681400F5AE9F /* Controller */,
+				B511C2D429DB681500F5AE9F /* DownloadServices */,
+				B511C2DA29DB681500F5AE9F /* Factories */,
+				B511C2B229DB680200F5AE9F /* Models */,
+				B511C29329DB680100F5AE9F /* Pages */,
+				B511C29729DB680100F5AE9F /* Parsers */,
+				B511C28D29DB680100F5AE9F /* Providers */,
+				B511C2B129DB680200F5AE9F /* SceneDelegate.swift */,
+				B511C29A29DB680100F5AE9F /* Serializers */,
+				B511C29D29DB680100F5AE9F /* Utility */,
+				B511C29F29DB680100F5AE9F /* Validators */,
 				B5523F8629DA021E00D101CF /* Assets.xcassets */,
 				B5523F8829DA021E00D101CF /* LaunchScreen.storyboard */,
 				B5523F8B29DA021E00D101CF /* Info.plist */,
@@ -70,6 +412,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B511C31C29DB81ED00F5AE9F /* NASATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B511C32329DB81ED00F5AE9F /* Build configuration list for PBXNativeTarget "NASATests" */;
+			buildPhases = (
+				B511C31929DB81ED00F5AE9F /* Sources */,
+				B511C31A29DB81ED00F5AE9F /* Frameworks */,
+				B511C31B29DB81ED00F5AE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B511C32229DB81ED00F5AE9F /* PBXTargetDependency */,
+			);
+			name = NASATests;
+			productName = NASATests;
+			productReference = B511C31D29DB81ED00F5AE9F /* NASATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B5523F7929DA021B00D101CF /* NASA */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5523F8E29DA021E00D101CF /* Build configuration list for PBXNativeTarget "NASA" */;
@@ -97,6 +457,10 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					B511C31C29DB81ED00F5AE9F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B5523F7929DA021B00D101CF;
+					};
 					B5523F7929DA021B00D101CF = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -116,45 +480,117 @@
 			projectRoot = "";
 			targets = (
 				B5523F7929DA021B00D101CF /* NASA */,
+				B511C31C29DB81ED00F5AE9F /* NASATests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B511C31B29DB81ED00F5AE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5523F7829DA021B00D101CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B511C2B829DB680200F5AE9F /* Main.storyboard in Resources */,
 				B5523F8A29DA021E00D101CF /* LaunchScreen.storyboard in Resources */,
 				B5523F8729DA021E00D101CF /* Assets.xcassets in Resources */,
-				B5523F8529DA021B00D101CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B511C31929DB81ED00F5AE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B511C34729DB82EC00F5AE9F /* ImageDownloadServiceImplTest.swift in Sources */,
+				B511C34029DB82EC00F5AE9F /* DateValidatorImplTest.swift in Sources */,
+				B511C34A29DB82EC00F5AE9F /* URLQueryItemProviderImplTest.swift in Sources */,
+				B511C34229DB82EC00F5AE9F /* URLSessionValidatorImplTest.swift in Sources */,
+				B511C33F29DB82EC00F5AE9F /* DateParserImplTest.swift in Sources */,
+				B511C34829DB82EC00F5AE9F /* NASADownloadServiceTest.swift in Sources */,
+				B511C34329DB82EC00F5AE9F /* URLValidatorImplTest.swift in Sources */,
+				B511C34E29DB82EC00F5AE9F /* JSONSerializerTest.swift in Sources */,
+				B511C34529DB82EC00F5AE9F /* UIViewControllerValidatorImplTest.swift in Sources */,
+				B511C34629DB82EC00F5AE9F /* EntityValidatorImplTest.swift in Sources */,
+				B511C34929DB82EC00F5AE9F /* URLComponentsProviderImplTest.swift in Sources */,
+				B511C34129DB82EC00F5AE9F /* URLComponentsValidatorImplTest.swift in Sources */,
+				B511C34D29DB82EC00F5AE9F /* URLFactoryImplTest.swift in Sources */,
+				B511C34429DB82EC00F5AE9F /* DateParserValidatorImplTest.swift in Sources */,
+				B511C34B29DB82EC00F5AE9F /* DateFactoryImplTest.swift in Sources */,
+				B511C34C29DB82EC00F5AE9F /* UIViewControllerFactoryImplTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5523F7629DA021B00D101CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5523F8229DA021B00D101CF /* ViewController.swift in Sources */,
+				B511C2E729DB681500F5AE9F /* DateFactory.swift in Sources */,
+				B511C2C129DB680200F5AE9F /* UIViewControllerValidatorImpl.swift in Sources */,
+				B511C2BB29DB680200F5AE9F /* PictureOfTheDayViewControllerPaging.swift in Sources */,
+				B511C2E129DB681500F5AE9F /* PictureOfTheDayViewContoller.swift in Sources */,
+				B511C2E529DB681500F5AE9F /* ImageDownloadServiceImpl.swift in Sources */,
 				B5523F7E29DA021B00D101CF /* AppDelegate.swift in Sources */,
-				B5523F8029DA021B00D101CF /* SceneDelegate.swift in Sources */,
+				B511C2EA29DB681500F5AE9F /* DateFactoryImpl.swift in Sources */,
+				B511C2C929DB680200F5AE9F /* URLSessionValidator.swift in Sources */,
+				B511C2C329DB680200F5AE9F /* DateValidator.swift in Sources */,
+				B511C2D029DB680200F5AE9F /* SceneDelegate.swift in Sources */,
+				B511C2BA29DB680200F5AE9F /* PictureOfTheDayFirstViewPage.swift in Sources */,
+				B511C2BF29DB680200F5AE9F /* Serializer.swift in Sources */,
+				B511C2C229DB680200F5AE9F /* DateParserValidator.swift in Sources */,
+				B511C2CD29DB680200F5AE9F /* UIViewControllerValidator.swift in Sources */,
+				B511C2C729DB680200F5AE9F /* URLComponentsValidatorImpl.swift in Sources */,
+				B511C2D129DB680200F5AE9F /* PictureOfTheDay.swift in Sources */,
+				B511C2C829DB680200F5AE9F /* URLComponentsValidator.swift in Sources */,
+				B511C2CE29DB680200F5AE9F /* EntityValidator.swift in Sources */,
+				B511C2C529DB680200F5AE9F /* DateParserValidatorImpl.swift in Sources */,
+				B511C2B729DB680200F5AE9F /* URLQueryItemProvider.swift in Sources */,
+				B511C2CB29DB680200F5AE9F /* URLValidatorImpl.swift in Sources */,
+				B511C2B629DB680200F5AE9F /* URLQueryItemProviderImpl.swift in Sources */,
+				B511C2CA29DB680200F5AE9F /* URLValidator.swift in Sources */,
+				B511C2B929DB680200F5AE9F /* PictureOfTheDaySecondViewPage.swift in Sources */,
+				B511C2BE29DB680200F5AE9F /* JSONSerializer.swift in Sources */,
+				B511C2E429DB681500F5AE9F /* DataDownloadService.swift in Sources */,
+				B511C2B529DB680200F5AE9F /* URLComponentsProvider.swift in Sources */,
+				B511C2F029DB7E2300F5AE9F /* OfflineStorage.swift in Sources */,
+				B511C2BC29DB680200F5AE9F /* DateParserImpl.swift in Sources */,
+				B511C2E329DB681500F5AE9F /* ImageDownloadService.swift in Sources */,
+				B511C2E829DB681500F5AE9F /* URLFactory.swift in Sources */,
+				B511C2BD29DB680200F5AE9F /* DateParser.swift in Sources */,
+				B511C2B429DB680200F5AE9F /* URLComponentsProviderImpl.swift in Sources */,
+				B511C2E229DB681500F5AE9F /* NASADownloadService.swift in Sources */,
+				B511C2C429DB680200F5AE9F /* DateValidatorImpl.swift in Sources */,
+				B511C2EB29DB681500F5AE9F /* UIViewControllerFactoryImpl.swift in Sources */,
+				B511C2C629DB680200F5AE9F /* Reachability.swift in Sources */,
+				B511C2C029DB680200F5AE9F /* NetworkMonitor.swift in Sources */,
+				B511C2EC29DB681500F5AE9F /* UIViewControllerFactory.swift in Sources */,
+				B511C2EE29DB6FAE00F5AE9F /* NasaStorage.swift in Sources */,
+				B511C2E929DB681500F5AE9F /* URLFactoryImpl.swift in Sources */,
+				B511C2CC29DB680200F5AE9F /* URLSessionValidatorImpl.swift in Sources */,
+				B511C2E629DB681500F5AE9F /* Constants.swift in Sources */,
+				B511C2CF29DB680200F5AE9F /* EntityValidatorImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		B5523F8329DA021B00D101CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5523F8429DA021B00D101CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		B511C32229DB81ED00F5AE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5523F7929DA021B00D101CF /* NASA */;
+			targetProxy = B511C32129DB81ED00F5AE9F /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		B5523F8829DA021E00D101CF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,6 +602,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B511C32429DB81ED00F5AE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NASATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NASA";
+			};
+			name = Debug;
+		};
+		B511C32529DB81ED00F5AE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NASATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NASA";
+			};
+			name = Release;
+		};
 		B5523F8C29DA021E00D101CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -337,6 +807,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B511C32329DB81ED00F5AE9F /* Build configuration list for PBXNativeTarget "NASATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B511C32429DB81ED00F5AE9F /* Debug */,
+				B511C32529DB81ED00F5AE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B5523F7529DA021B00D101CF /* Build configuration list for PBXProject "NASA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

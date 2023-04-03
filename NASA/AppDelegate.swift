@@ -1,8 +1,5 @@
 //
-//  AppDelegate.swift
-//  NASA
-//
-//  Created by Sachin Bhardwaj on 03/04/23.
+//  Created by Sachin, Bhardwaj
 //
 
 import UIKit
@@ -13,7 +10,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        NetworkMonitor.shared.startMonitoring { connection, rechable in
+            debugPrint("Current Connection : \(connection) Is reachable: \(rechable)")
+        }
         return true
     }
 
