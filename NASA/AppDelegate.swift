@@ -10,7 +10,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        NetworkMonitor.shared.startMonitoring { connection, rechable in
+            debugPrint("Current Connection : \(connection) Is reachable: \(rechable)")
+        }
         return true
     }
 
